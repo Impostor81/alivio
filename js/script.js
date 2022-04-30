@@ -4,7 +4,7 @@ const mobileNav = document.querySelector('.mobile-nav');
 const mobileNavItems = document.querySelectorAll('.mobile-nav-list li');
 
 
-hamburger.addEventListener('click', () => {
+navButton.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   mobileNav.classList.toggle('active');
   document.body.classList.toggle('no-scroll');
